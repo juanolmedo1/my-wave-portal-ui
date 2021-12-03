@@ -12,6 +12,15 @@
   max-width: 600px;
 }
 
+.inputContainer {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  height: 40px;
+}
+
 .header {
   text-align: center;
   font-size: 32px;
@@ -32,3 +41,15 @@
   border-radius: 5px;
   
 }
+
+.totalWavesContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.wavesCount {
+  margin-left: 5px;
+}
+
