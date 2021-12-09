@@ -1,29 +1,37 @@
 .mainContainer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  width: 100%;
-  margin-top: 64px;
+  align-items: center;
+  padding-top: 64px;
 }
 
 .dataContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 600px;
+  min-width: 300px;
+  max-width: 900px;
 }
 
 .inputContainer {
-  background-color: red;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-  height: 40px;
+}
+
+.buttonContainer {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: flex-end;
 }
 
 .header {
   text-align: center;
   font-size: 32px;
+  color: white;
   font-weight: 600;
 }
 
@@ -51,5 +59,12 @@
 
 .wavesCount {
   margin-left: 5px;
+}
+#outlined-multiline-static {
+  color: white
+}
+
+fieldset {
+  border-color: white;
 }
 
